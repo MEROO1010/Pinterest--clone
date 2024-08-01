@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/Pin.css";
+import "../css/Pin.css";
 
 function Pin(props) {
   let { urls } = props;

@@ -1,8 +1,8 @@
 import "./css/App.css";
 import { useState, useEffect } from "react";
-import Header from "./Header";
-import Mainboard from "./Mainboard";
-import unsplash from "../api/unsplash";
+import Header from "./js/Header";
+import Mainboard from "../js/Mainboard";
+import unsplash from '../api/unsplash';
 
 function App() {
   const [pins, setNewPins] = useState([]);

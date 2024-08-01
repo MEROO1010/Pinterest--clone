@@ -1,6 +1,6 @@
 import React from "react";
 import Pin from "./Pin";
-import "./css/Mainboard.css";
+import "./Mainboard.css";
 
 function Mainboard(props) {
   let { pins } = props;
